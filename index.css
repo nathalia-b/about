@@ -1,0 +1,64 @@
+:root {
+    --fundo-principal: #1f1f1ff1; 
+    --texto-principal: #d3d3d3;
+    --texto-sidebar: #A0A0A0; 
+    --titulo-subtitulo: #c0c0c0; 
+    --destaque: #008080; 
+    --links: #8ce4e4; 
+    --destaque-light: #d4eeee; 
+    
+}
+.accordion-button{
+    background-color: var(--fundo-principal);
+    color: var(--texto-principal)
+}
+
+body {
+    display: flex;
+    background-color: var(--fundo-principal);
+    font-size: medium;
+    color: var(--texto-principal);
+    font-family: 'Source Code Pro', monospace;
+} 
+
+h1, h2, h3, h4 {
+    color: var(--titulo-subtitulo);
+}
+
+h4, .xp {
+    color: var(--destaque-light);
+}
+h3 {
+   color: var(--destaque); 
+   font-size: medium;
+}
+
+a {
+    color: var(--links);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--destaque);
+    transition: color 0.3s ease-in;
+}
+
+.sidebar {
+    text-align: justify;
+    background-color: #0e1111;
+    height: 100vh;
+
+}
+
+.profile {
+    filter: grayscale(100);
+    width: 180px;
+    height: 170px;
+    box-shadow: 1px 0rem 0.5rem 0px var(--destaque);
+}
+
+.div {
+    height: 1px;
+    background-color: var(--destaque);
+}
