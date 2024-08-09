@@ -8,7 +8,8 @@
     --destaque-light: #d4eeee; 
     
 }
-.accordion-button{
+
+.accordion-button {
     background-color: var(--fundo-principal);
     color: var(--texto-principal)
 }
@@ -28,6 +29,7 @@ h1, h2, h3, h4 {
 h4, .xp {
     color: var(--destaque-light);
 }
+
 h3 {
    color: var(--destaque); 
    font-size: medium;
